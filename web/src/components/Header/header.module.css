@@ -1,0 +1,28 @@
+
+.container {
+  width: 100vwl;
+  background: url('../../assets/Image.png')lightgray 50% / cover no-repeat;;
+  height: 39rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+li {
+  color: #fff;
+}
+nav {
+  display: flex;
+  gap: 1rem
+}
+.container h1 {
+  color: #FFF;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.00625rem;
+}
