@@ -6,10 +6,10 @@ export function Header() {
         <h1>L O G O</h1>
 
       <nav>
-        <li>item 01</li>
-        <li>item 02</li>
-        <li>item 03</li>
-        <li>item 04</li>
+        <li><a href="http://">item 01</a></li>
+        <li><a href="http://">item 01</a></li>
+        <li><a href="http://">item 01</a></li>
+        <li><a href="http://">item 01</a></li>
       </nav>
     </header>
   )
