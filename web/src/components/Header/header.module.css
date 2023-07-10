@@ -1,37 +1,105 @@
-
 .container {
-  width: 100vwl;
-  background: url('../../assets/Image.png')lightgray 50% / cover no-repeat;;
+  width: 100vw;
   height: 39rem;
-  padding: 2rem;
+  background: url('../../assets/Image.png')lightgray 50% / cover no-repeat;;
+}
+.content {
+  width: 96%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 2rem;
+  background-color: #110705;
 }
-li {
-  color: #fff;
-}
-nav {
+nav ul{
   display: flex;
-  gap: 1rem
+  gap: 3rem;
 }
-.container h1 {
-  color: #FFF;
-  text-align: right;
-  font-family: Poppins;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5rem;
-  letter-spacing: 0.00625rem;
-}
-nav li a{
-  display: block;
-  padding: .5rem;
+nav ul li a{
   border-radius: .2rem;
-  font-family: 'Poppins', sans-serif;
+  padding: 10px;
 }
-nav li a:hover{
-  background-color: rgba(255, 255, 255, 0.1);
+nav ul li a:hover {
+  background-color: #F9E3C5;
+}
+
+.btn-signin {
+  border-radius: .5rem;
+  background-color: #F0BF9B;
+  color: #000;
+}
+.btn_area {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+}
+.sectionHeader {
+  width: 100vw;
+}
+.sectionContent {
+  padding: 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+.sectionLeft{
+  width: 50%;
+ 
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.sectionLeft h1 {
+  color: #F9E3C5;
+  font-family: Poppins;
+  font-size: 2.8125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.75rem;
+  letter-spacing: -0.0625rem;
+  margin-bottom: 2rem;
+}
+.sectionLeft p {
+  color: #E1EDED;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+.btn_area a {
+  background-color: #F0BF9B;
+  border-radius: .3rem;
+  color: #000;
+  padding: 1rem;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+.containerImg {
+  width: 100vw;
+}
+section .imgArea {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1440px;
+  margin: 0 auto;
+  
+}
+section .imgArea img {
+  width: 40px;
+  height: 40px;
+  
+}
+section .imgArea p {
+  display: flex;
+  height: .3rem;
+  align-items: center;
+  
 }
